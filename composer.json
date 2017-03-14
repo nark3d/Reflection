@@ -1,0 +1,29 @@
+{
+  "name": "best-served-cold/reflection",
+  "description": "Reflection - Simple utility to reflect objects and classes to access properties and methods.",
+  "keywords": ["Easy reflection", "Reflection", "Auto reflection", "Best Served Cold"],
+  "homepage": "http://bestservedcold.com",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Adam Lewis",
+      "email": "adam.lewis@bestservedcold.com",
+      "homepage": "http://adamlewis.gb.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0",
+    "mockery/mockery": "^0.9.4",
+    "phpdocumentor/phpdocumentor": "^2.8"
+  },
+  "autoload": {
+    "psr-4": {"BestServedCold\\Reflection\\": "src"}
+  },
+  "autoload-dev": {
+    "psr-4": {"BestServedCold\\Reflection\\": "tests"}
+  }
+}
