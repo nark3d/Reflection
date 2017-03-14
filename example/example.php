@@ -8,14 +8,14 @@ use BestServedCold\Reflection\ReflectionObject;
 
 $reflectionClass = new ReflectionClass(ExampleClass::class);
 
-var_dump($reflectionClass->protectedStaticProperty);
-var_dump($reflectionClass->privateStaticProperty);
-var_dump($reflectionClass->protectedStaticMethod(2));
-var_dump($reflectionClass->privateStaticMethod(4));
+echo $reflectionClass->protectedStaticProperty . PHP_EOL;
+echo $reflectionClass->privateStaticProperty . PHP_EOL;
+echo $reflectionClass->protectedStaticMethod(2) . PHP_EOL;
+echo $reflectionClass->privateStaticMethod(4) . PHP_EOL;
 
 $reflectionObject = new ReflectionObject(new Exampleclass);
 
-var_dump($reflectionObject->protectedProperty);
-var_dump($reflectionObject->privateProperty);
-var_dump($reflectionObject->protectedMethod(2));
-var_dump($reflectionObject->privateMethod(4));
+echo $reflectionObject->protectedProperty . PHP_EOL;
+echo $reflectionObject->privateProperty . PHP_EOL;
+echo $reflectionObject->protectedMethod(2) . PHP_EOL;
+echo $reflectionObject->privateMethod(4) . PHP_EOL;
