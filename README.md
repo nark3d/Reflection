@@ -5,6 +5,7 @@
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/4c0863ee-8947-468c-9b7e-165704e98c5f/mini.png)](https://insight.sensiolabs.com/projects/4c0863ee-8947-468c-9b7e-165704e98c5f)
 [![Latest Stable Version](https://img.shields.io/packagist/v/best-served-cold/reflection.svg)](https://packagist.org/packages/best-served-cold/reflection)
 [![Code Climate](https://codeclimate.com/github/nark3d/Reflection/badges/gpa.svg)](https://codeclimate.com/github/nark3d/Reflection)
+[![Issue Count](https://codeclimate.com/github/nark3d/Reflection/badges/issue_count.svg)](https://codeclimate.com/github/nark3d/Reflection)
 
 # Reflection
 
